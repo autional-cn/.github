@@ -8,7 +8,7 @@
 | --- | --- | --- |
 | 官网 | [www.autional.cn](https://www.autional.cn) | 产品介绍与快速开始 |
 | 品牌门户 | [brand.autional.cn](https://brand.autional.cn) | 租户品牌选择入口（门户裸根无会话时的统一落点） |
-| 演示入口 | [demo.autional.cn](https://demo.autional.cn) | 全服务在线演示导航 |
+| 演示入口 | [demo.autional.cn](https://demo.autional.cn) | 演示门户入口（Vercel 反向代理至内部源站，26 服务卡） |
 | 身份认证 | [auth.autional.cn](https://auth.autional.cn) | 登录、注册、多因素认证与单点登录 |
 | 用户中心 | [user.autional.cn](https://user.autional.cn) | 个人资料、安全设置、会话与授权管理 |
 | 管理控制台 | [admin.autional.cn](https://admin.autional.cn) | 租户、用户、应用与策略的集中管理后台 |
@@ -30,8 +30,8 @@
 | 分组 | 仓库 | 技术栈 |
 | --- | --- | --- |
 | 静态站 | [web](https://github.com/autional-cn/web) · [docs](https://github.com/autional-cn/docs) · [developer](https://github.com/autional-cn/developer) · [reference](https://github.com/autional-cn/reference) · [wiki](https://github.com/autional-cn/wiki) | Astro 5 + Tailwind CSS |
-| 单页应用 | [auth](https://github.com/autional-cn/auth) · [admin](https://github.com/autional-cn/admin) · [user](https://github.com/autional-cn/user) · [security](https://github.com/autional-cn/security) · [status](https://github.com/autional-cn/status) · [trust](https://github.com/autional-cn/trust) · [platform](https://github.com/autional-cn/platform) · [authenticator](https://github.com/autional-cn/authenticator) · [brand](https://github.com/autional-cn/brand) · [demo](https://github.com/autional-cn/demo) | Vite + React 19 + TypeScript + Tailwind CSS |
-| 后端入口 | [api](https://github.com/autional-cn/api) | BFF 转发（Vercel Rewrites） |
+| 单页应用 | [auth](https://github.com/autional-cn/auth) · [admin](https://github.com/autional-cn/admin) · [user](https://github.com/autional-cn/user) · [security](https://github.com/autional-cn/security) · [status](https://github.com/autional-cn/status) · [trust](https://github.com/autional-cn/trust) · [platform](https://github.com/autional-cn/platform) · [authenticator](https://github.com/autional-cn/authenticator) · [brand](https://github.com/autional-cn/brand) | Vite + React 19 + TypeScript + Tailwind CSS |
+| 后端入口 | [api](https://github.com/autional-cn/api) · [demo](https://github.com/autional-cn/demo) | Vercel 反向代理（BFF 转发 / 演示门户；Rewrites · `vercel.ts`） |
 
 ## 许可
 
