@@ -41,7 +41,7 @@
 
 ## 许可
 
-[AGPL-3.0](https://github.com/autional-cn/.github/blob/main/LICENSE)
+开源组件（门户、设计系统、文档）：[AGPL-3.0](https://github.com/autional-cn/.github/blob/main/LICENSE) · SDK 软件包：MIT · 核心身份服务：商业授权
 
 ---
 
