@@ -30,14 +30,14 @@
 
 ## 仓库
 
-每个站点对应一个独立仓库，推送至 `main` 分支后由 Vercel 自动部署。
+站点源仓已统一至 [autional](https://github.com/autional) 组织（本组织站仓已归档退役）；推送 autional 侧仓 `main` 分支由 Vercel 自动部署。
 
 | 分组 | 仓库 | 技术栈 |
 | --- | --- | --- |
 | 门户 | [auth](https://github.com/autional-cn/auth) · [user](https://github.com/autional-cn/user) · [admin](https://github.com/autional-cn/admin) · [security](https://github.com/autional-cn/security) · [platform](https://github.com/autional-cn/platform) · [authenticator](https://github.com/autional-cn/authenticator) · [brand](https://github.com/autional-cn/brand) · [trust](https://github.com/autional-cn/trust) · [status](https://github.com/autional-cn/status) | Vite + React 19 + TypeScript + Tailwind CSS |
 | 静态站 | [web](https://github.com/autional-cn/web) · [docs](https://github.com/autional-cn/docs) · [developer](https://github.com/autional-cn/developer) · [reference](https://github.com/autional-cn/reference) · [wiki](https://github.com/autional-cn/wiki) | Astro 5 + Tailwind CSS |
 | 基础设施 | [api](https://github.com/autional-cn/api) · [demo](https://github.com/autional-cn/demo) · [cdn](https://github.com/autional-cn/cdn) | Vercel 反向代理与静态资源 CDN |
-| 设计系统 | [ui](https://github.com/autional-cn/ui) | 设计令牌、品牌资产与站点规范（canonical） |
+| 设计系统 | [ui](https://github.com/autional/ui) | 设计令牌、品牌资产与站点规范（canonical） |
 
 ## 许可
 
